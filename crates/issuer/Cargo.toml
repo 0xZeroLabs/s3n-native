@@ -1,0 +1,11 @@
+[package]
+name = "s3n-issuer"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[[bin]]
+name = "s3n-issuer"
+path = "src/lib.rs"
+
+[dependencies]
