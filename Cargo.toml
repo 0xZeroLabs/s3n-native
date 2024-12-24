@@ -6,4 +6,12 @@ name = "s3n-native"
 version = "0.1.0"
 edition = "2021"
 
+[[bin]]
+name = "issuer"
+path = "crates/issuer/src/lib.rs"
+
+[[bin]]
+name = "verifier"
+path = "crates/verifier/src/main.rs"
+
 [workspace.dependencies]
